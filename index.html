@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<img>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <h5>First to 3 wins !</h5>
+
+    <div class="scoreboard">
+        <div id="player-badge" class="badge">Player</div>
+        <div id="computer-badge" class="badge">Comp</div>
+        <span id="player-score">0</span> : <span id="computer-score">0</span> 
+    </div>
+
+    <div class="result">
+        <p>Click an icon to start the game!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="./img/rock.png" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="./img/paper.png" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="./img/scissors.png" alt="">
+        </div>
+    </div>
+
+    <p id="play">Choose your action!</p>
+
+
+    <div class="endgame" id="endgame1"></div>
+
+    <footer>&copy; Wouter Mathues</footer>
+
+   
+
+
+<script src="rps.js"></script>    
+</body>
+</html>
