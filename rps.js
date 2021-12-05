@@ -63,7 +63,7 @@ function game(userChoice){
         case "rp":
         case "ps":
         case "sr":
-            lose((userChoice, computerChoice));
+            lose(userChoice, computerChoice);
             break;
             // console.log("You Lose! :(");
            
